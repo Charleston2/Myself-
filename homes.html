@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/homes.css">
+        <link rel="stylesheet"href="https://cdnjs.coludflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet"href="/fontawesome-free-6.6.0-web/css/all.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="nav-bar scrolled">
+            <!-- Left Navigation Links -->
+            <ul class="nav-links-left" id="navLeft" class="active">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+            </ul>
+            <!-- Center and Animated  Logo -->
+            <div class="logo-container">
+                <span class="logo">TAILOR</span>
+            </div>
+            <!-- Right Navigation Links -->
+            <ul class="nav-links-right" id="navRight" class="active">
+                <li class="dropdown" id="dropdown">
+                    <a href="#">BLOG <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">BLOG DETAILS</a></li>
+                        <li><a href="#">SHOP DETAILS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">VISIT US</a></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+             <div class="hamburger-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars" style="display: block;"></i>
+                <i class="fas fa-times" style="display: none;"></i>
+            </div> 
+
+        </nav>
+
+
+ <!-- Secondary Navigation -->
+ <nav class="subnav  scrolledd">
+    <div class="user-info">
+      <div class="user-icon">User</div>
+      <span>Charles Mmaduadurochukwu</span>
+    </div>
+    <div class="tools">
+      <div class="cart" id="cart">
+        <i class="fas fa-shopping-cart"></i><span id="cart-count">0</span>
+      </div>
+      <form id="search-form" class="search">
+        <input type="text" id="search-input" placeholder="Search..." />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <div class="notifications" id="notifications">
+        <i class="fas fa-bell"></i><span id="notification-count">3</span>
+      </div>
+    </div>
+    </nav>
+  
+
+  <div class="main-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li id="edit-profile"><i class="fas fa-user-edit"></i> Edit Profile</li>
+        <li id="settings-privacy"><i class="fas fa-cogs"></i> Settings & Privacy</li>
+        <li id="help-support"><i class="fas fa-headphones-alt"></i> Help & Support</li>
+        <li id="logout"><i class="fas fa-sign-out-alt"></i> Logout</li>
+        <li id="dark-mode-toggle"><i class="fas fa-moon"></i> Dark Mode</li>
+      </ul>
+    </aside>
+
+<!-- Main Content -->
+<main class="content">
+    <h1>Welcome, Charles!</h1>
+    <p>This is your dashboard styled with the Tailor theme.</p>
+    <div class="card-grid">
+      <div class="card">
+        <h2>Profile Overview</h2>
+        <p>View and update your personal information.</p>
+      </div>
+      <div class="card">
+        <h2>Account Settings</h2>
+        <p>Manage your account security and privacy settings.</p>
+      </div>
+      <div class="card">
+        <h2>Support Center</h2>
+        <p>Get help and find answers to your questions.</p>
+      </div>
+    </div>
+  </main>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="home.js"></script> 
+
+    </body>
+</html>
